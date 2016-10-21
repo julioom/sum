@@ -11,9 +11,15 @@ public class TestSum {
 		assertEquals(4, sum(1,3));
 	}
 
-	
+
+	@Test
+	public void testSumNumWithZero() {
+		assertEquals(2, sum(2,0));
+		assertEquals(2, sum(0,2));
+	}
+
 	
 	int sum(int a, int b) {
-		return 4;
+		return a+b;
 	}
 }
