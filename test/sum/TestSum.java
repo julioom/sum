@@ -27,10 +27,12 @@ public class TestSum {
 	
 	int sum(int a, int b) {
 		return Sum.sum(a, b);
+
 	}
 	
 	@Test 
 	public void sumaTresNumeros() {
 		assertEquals(7, Sum.sum(1, 4, 2));
+
 	}
 }

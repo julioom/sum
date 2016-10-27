@@ -7,7 +7,9 @@ public class Sum {
 		return a+b;
 	}
 
+
 	public static int sum(int i, int j, int k) {
 		return sum(i, j)+k;
 	}
+
 }
