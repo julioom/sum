@@ -13,7 +13,7 @@ public class Sum {
 	}
 	
 	public static int sum_untested(int a, int b) {
-		return a/b;
+		return a++++++b;
 	}
 	
 
